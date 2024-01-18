@@ -1,0 +1,146 @@
+
+@import "./valiable";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 32px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav{
+    color: white;
+    position: absolute;
+    width: 100%;
+    // border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    // border-left: 1px solid gray;
+    padding: 20px;
+    .nav-o{
+        // padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // border-right: 1px solid gray;
+            // border-bottom: 1px solid gray;
+            // border-left: 1px solid gray;
+        .left{
+            border-right: 1px solid gray;
+       
+            // border-bottom: 1px solid gray;
+
+            h2{
+                font-size: 40px;
+            }
+span{
+    color: $colors;
+}
+        }
+        .center{
+          
+ul{
+    display:flex ;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+  
+
+}
+        }
+        .right{
+    display: flex;
+
+span{
+    color: rgb(255, 197, 21);
+  
+}
+        }
+    }
+}
+
+
+.banner{
+    background-position: center;
+    width: 100%;
+    background-image: url("../img/slider-1.jpg");
+    min-height: 120vh;
+
+    .banner-o{ display: flex;
+        // min-height: 100vh;
+        align-items: center;
+        // justify-content: center;
+        padding-top: 300px;
+        gap: 70px;
+        .bannerleft{
+           
+            border: 1px solid gray;
+            padding: 30px;
+            ul{
+                list-style: none;
+                color: white;
+                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+              gap: 20px;
+                span{
+                    color: $colors;
+                }
+            }
+        }
+        .bannercenter{
+            display:flex ;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          h1{ text-align: center;
+      font-size: 110px;
+      color: aliceblue;
+          }
+          p{
+            font-size: 18px;
+            color: white;
+            padding-left: 500px;
+          }
+          span{
+            color: yellow;
+          }
+        }
+
+    }
+}
+
+
+.section1{width: 100%;
+    .section1-o{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        i{
+            font-size: 70px;
+            color: gray;
+        }
+
+
+        
+        .s1bottom{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .s1bot{
+                text-align: center;
+                h4{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
